@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slanted Text Background</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .slanted-text-container {
+    position: relative;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    transform: skew(-15deg);
+    overflow: hidden;
+  }
+
+  .slanted-text {
+    transform: skew(15deg);
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .hero_section h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 36px; /* Adjust font size */
+  }
+
+  .hero_section span {
+    font-size: 48px; /* Adjust font size */
+    font-weight: bold; /* Make the span text bold */
+  }
+</style>
+</head>
+<body>
+  <div class="slanted-text-container">
+    <div class="slanted-text">
+      <div class="hero_section">
+        <h1>Unleash Your Inner <br> <span> Rockstar </span></h1>
+        <!-- <p>Meet good Vibes connect with new people, and create memories that last.</p> -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>

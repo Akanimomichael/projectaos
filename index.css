@@ -1,0 +1,32 @@
+/* Text Overflow */
+.overflow-example {
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.overflow-example p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Text Rendering */
+.rendering-example {
+  text-rendering: optimizeLegibility;
+}
+
+/* Vertical Alignment */
+.vertical-align-example {
+  vertical-align: middle;
+}
+
+/* Text Direction */
+.direction-example {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+/* Hyphenation */
+.hyphenation-example {
+  hyphens: auto;
+}
